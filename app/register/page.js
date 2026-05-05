@@ -31,7 +31,7 @@ export default function Register() {
         </div>
 
         {/* Auth Form */}
-        <div className="w-full flex gap-3 mb-6">
+        <div className="w-full flex gap-3">
           <button className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl border border-white-5 hover:bg-white-5 transition-colors font-bold text-sm">
             <Globe size={16} /> Google
           </button>
@@ -40,7 +40,7 @@ export default function Register() {
           </button>
         </div>
 
-        <div className="w-full flex items-center gap-4 mb-6">
+        <div className="w-full flex items-center gap-4 my-6">
           <div className="flex-1 h-[1px]" style={{ backgroundColor: 'var(--white-5)' }} />
           <span className="text-xs font-bold text-slate-400 uppercase">OR EMAIL</span>
           <div className="flex-1 h-[1px]" style={{ backgroundColor: 'var(--white-5)' }} />
